@@ -1,0 +1,4 @@
+## Default .htaccess file
+RewriteEngine On
+RewriteBase /
+RewriteRule ^([A-z]+)$ /index.php?p=$1
